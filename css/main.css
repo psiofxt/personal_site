@@ -1,0 +1,242 @@
+*{
+  background-color: #eff2f5;
+}
+
+.header{
+  display: grid;
+  margin: 20px auto;
+  width: 70%;
+}
+
+.body{
+  width: 70%;
+  margin: 20px auto;
+}
+
+.navigation{
+  position: absolute;
+  right: 300px;
+  top: 100px;
+}
+
+
+.header_title{
+  display: inline-block;
+  left: 175px;
+  position: relative;
+  font-family: "Helvetica", Helvetica;
+  color: #2d3c49;
+  text-align: left;
+  width: 100%;
+  min-width: 50%;
+}
+
+.subtitle{
+  color: #2d3c49;
+  position: relative;
+  bottom: 1em;
+}
+
+
+
+
+/*Style to ensure the header remains intact throughout resizing */
+/*--------------------------------------------------------------*/
+
+@media screen and (max-width:600px){
+  h1 {
+  	font-family: "Helvetica", Helvetica;
+  	font-size: 24px;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 800;
+  	line-height: 26.4px;
+  }
+
+  h3 {
+  	font-family: "Helvetica", Helvetica;
+  	font-size: 12px;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 400;
+  	line-height: 15.4px;
+  }
+
+  .header_logo{
+    top: 50px;
+    position: absolute;
+    float: left;
+    width: 40px;
+    height: 40px;
+    max-width: 100%;
+  }
+
+  .text_resize{
+    font-family: "Helvetica", Helvetica;
+    font-size: 8px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width:1119px) and (min-width:601px){
+  h1 {
+  	font-family: "Helvetica", Helvetica;
+  	font-size: 40px;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 800;
+  	line-height: 26.4px;
+  }
+
+  h3 {
+  	font-family: "Helvetica", Helvetica;
+  	font-size: 14px;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 400;
+  	line-height: 15.4px;
+  }
+
+  .header_logo{
+    top: 45px;
+    position: absolute;
+    float: left;
+    width: 80px;
+    height: 80px;
+    max-width: 100%;
+  }
+
+  .text_resize{
+    font-family: "Helvetica", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width:1120px){
+  h1 {
+  	font-family: "Helvetica", Helvetica;
+  	font-size: 64px;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 800;
+  	line-height: 26.4px;
+  }
+
+  h3 {
+  	font-family: "Helvetica", Helvetica;
+  	font-size: 24px;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 400;
+  	line-height: 15.4px;
+  }
+
+  .header_logo{
+    position: absolute;
+    float: left;
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+  }
+
+  .text_resize{
+    font-family: "Helvetica", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+
+/*--------------------------------------------------------------*/
+figure{
+  margin-right: 0;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  float: left;
+  margin: 10px;
+}
+
+li a:hover{
+  opacity: .5;
+}
+
+a{
+  text-decoration: none;
+  display: block;
+  color: white;
+  background: #2d3c49;
+  width: 100px;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  border-radius: 2px;
+  opacity: .8;
+}
+
+.mid_i{
+
+}
+
+
+.header_line{
+  background-color: #7d97ad;
+  height: 5px;
+}
+
+.middle_image{
+  float: right;
+  width: 100%;
+  opacity: .8;
+  padding-right: 16px;
+}
+
+.quantum_img{
+  display: block;
+  width: 400px;
+  height: 400px;
+}
+
+.q_container:hover .q_overlay{
+  opacity: .8;
+}
+
+.q_container{
+  z-index: 1;
+  position: relative;
+  float: right;
+  width: 400px;
+  margin: 20px;
+}
+
+.q_overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  width: 400px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2d3c49;
+}
+
+
+
+.q_text{
+  font-family: "Helvetica", Helvetica;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
