@@ -1,0 +1,9 @@
+https://www.physicsforums.com/insights/visualizing-2-d-particle-box/
+
+http://docs.enthought.com/mayavi/mayavi/mlab.html
+
+http://users.aber.ac.uk/ruw/teach/237/hatom.php
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/hydrad.html
+
+http://mathematica.stackexchange.com/questions/32378/is-there-something-like-densityplot3d-to-visualize-atomic-orbitals
